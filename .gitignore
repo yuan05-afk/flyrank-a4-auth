@@ -1,0 +1,10 @@
+# Secrets — never commit the real .env.
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+_pdf_extract.txt
+*.log
+W4 - Auth - Login & protect.pdf
