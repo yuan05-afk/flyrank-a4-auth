@@ -56,6 +56,10 @@ The token check lives once in `auth.py` (`get_current_user`) and is applied to *
 
 ![Swagger UI with Authorize padlock and locked routes](assets/swagger-auth.png)
 
+Public vs protected responses (no token):
+
+![Auth API public 200 and protected 401 responses](assets/auth-flow.png)
+
 ## Verified (without secrets)
 
 These paths need no Supabase keys and are confirmed passing:
